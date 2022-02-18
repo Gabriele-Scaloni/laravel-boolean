@@ -19,8 +19,8 @@ class CreatePostcardsTable extends Migration
 
             $table -> string('sender');
             $table -> string('address');
-            $table -> string('text');
-            $table -> string('image');
+            $table -> text('text') -> nullable();
+            $table -> string('image') -> nullable();
             
             $table->timestamps();
 

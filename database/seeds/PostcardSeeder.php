@@ -1,7 +1,7 @@
 <?php
 
-use App\Postcard;
 use Illuminate\Database\Seeder;
+use App\Postcard;
 
 class PostcardSeeder extends Seeder
 {
